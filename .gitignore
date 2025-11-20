@@ -1,0 +1,15 @@
+# Data
+data/
+result.parquet
+*.parquet
+
+# Environment
+venv/
+jdk_local/
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+__pycache__/
+*.pyc

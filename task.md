@@ -1,0 +1,24 @@
+# Task List: Spark Data Processing HW
+
+- [x] Setup Environment
+    - [x] Verify Python and Pip
+    - [x] Install PySpark and other dependencies (pandas, pyarrow)
+- [x] Data Acquisition
+    - [x] Download Yellow Taxi Trip Data (Jan-Jun 2025)
+    - [x] Download Taxi Zone Lookup Data
+- [x] Data Processing Script Implementation
+    - [x] Initialize Spark Session
+    - [x] Load Parquet Data
+    - [x] Clean Data (Filter invalid dates, distance, passengers)
+    - [x] Feature Engineering (Add hour columns)
+    - [x] Select Required Columns
+    - [x] Load and Join Zone Data
+    - [x] Aggregation (Hourly orders per zone)
+    - [x] Pivot Table (Average orders per zone per hour)
+    - [x] Save Result to Parquet
+- [x] Execution and Verification
+    - [x] Run the script
+    - [x] Verify output file exists and has correct format
+- [ ] GitHub Submission
+    - [ ] Configure .gitignore
+    - [ ] Commit and Push
